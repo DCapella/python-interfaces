@@ -19,13 +19,13 @@
 #### To grab them I can just do a for loop and add to list if n % i.
 
 ```python
-[i for i in n if n % i == 0]
+[i for i in range(1, n+1) if n % i == 0]
 ```
 
 #### Sum up that list
 
 ```python
-sum([i for i in n if n % i == 0]
+sum([i for i in range(1, n+1) if n % i == 0]
 ```
 
 ## Final Code
